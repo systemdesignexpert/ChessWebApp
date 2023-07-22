@@ -1,0 +1,40 @@
+﻿.container {
+    display: flex;
+    column-gap: 20px;
+}
+
+.background {
+    background-color: #000000;
+}
+
+.ChessGame {
+    flex: 1;
+    background-color: #cdf2bb;
+    padding: 20px;
+}
+
+.MoveList {
+    flex: 1;
+    background-color: #cdf2bb;
+    padding: 20px;
+}
+
+.centered-div {
+    display: flex;
+    justify-content: center;
+}
+
+.centered-button {
+    /* Add any button styles here */
+    width: 50%;
+    height: 50%;
+    max-width: 200px;
+    max-height: 500px;
+    background-color: #cdf2bb;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 20px;
+    margin-bottom: 20px;
+}

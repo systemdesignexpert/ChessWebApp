@@ -1,0 +1,26 @@
+﻿.chess-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 100px);
+    grid-template-rows: repeat(8, 100px);
+    gap: 0;
+    width: 800px; /* Adjust the width as needed */
+    height: 800px; /* Adjust the height as needed */
+    outline: 1px solid #000000;
+}
+
+.chess-cell {
+    width: 100%;
+    height: 100%;
+}
+
+.green {
+    background-color: #26734d;
+}
+
+.yellow {
+    background-color: #bfff00;
+}
+
+.centered-text {
+    text-align: center;
+}
